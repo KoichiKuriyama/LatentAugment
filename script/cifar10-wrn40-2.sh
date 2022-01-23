@@ -1,4 +1,4 @@
-python3 train.py --dataset cifar10 \
+python train.py --dataset cifar10 \
       --name cifar10-wrn40x2 \
       --dataroot /home/kkuri/Dropbox/temp/PyTorch/data/ \
       --checkpoint /home/kkuri/results/runs/latent/mixld5/ \
