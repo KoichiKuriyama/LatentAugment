@@ -20,3 +20,5 @@ The optimal augmentation policy, which is the latent variable, cannot be directl
 |  ImageNet |        ResNet-50        | 75.30 / 92.20 | 77.63 / 93.82 | 79.40 / 94.47 |   -   | <b>80.08 / 94.95</b>  |
 
  AutoAugment (AA) (Cubuk et al., 2018), Adversarial AutoAugment (AdvAA) (Zhang et al., 2019), Uncertainty-Based Sampling (UBS) (Wu et al., 2020), and proposed LatentAugment (LA). 
+
+## Usage
