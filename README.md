@@ -17,5 +17,5 @@ The optimal augmentation policy, which is the latent variable, cannot be directl
 |           |    Wide-ResNet-28-10    |     81.20     |     82.91     |     84.51     | 84.54 |   <b>84.98</b>   |
 |           |  Shake-Shake (26 2x96d) |     82.95     |     85.72     |     <b>85.90</b>     |   -   |   85.88  |
 |    SVHN   |    Wide-ResNet-28-10    |     98.50     |     98.93     |       -       |   -   |     <b>98.99 </b>     |
-|  ImageNet |        ResNet-50        | 75.30 / 92.20 | 77.63 / 93.82 | 79.40 / 94.47 |   -   | <b>79.40 / 94.47</b>  |
+|  ImageNet |        ResNet-50        | 75.30 / 92.20 | 77.63 / 93.82 | 79.40 / 94.47 |   -   | <b>80.08 / 94.95</b>  |
 
