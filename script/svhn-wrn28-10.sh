@@ -1,0 +1,14 @@
+python train.py --dataset svhn \
+      --name svhn-wrn28x10 \
+      --dataroot /home/user/data/ \
+      --checkpoint /home/user/runs/latent/ \
+      --num_k 6 \
+      --epochs 160 \
+      --batch-size 128 \
+      --lr 0.005 \
+      --weight-decay 0.001 \
+      --model wrn \
+      --layers 28 \
+      --widen-factor 10 \
+      --cutmix_prob 0.5 \
+      --cutmix True

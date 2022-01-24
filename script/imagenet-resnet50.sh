@@ -1,0 +1,13 @@
+python train.py --dataset imagenet \
+      --name imagenet-resnet50 \
+      --dataroot /home/user/data/ \
+      --checkpoint /home/user/runs/latent/ \
+      --num_k 6 \
+      --epochs 270 \
+      --batch-size 256 \
+      --lr 0.1 \
+      --weight-decay 0.0001 \
+      --model resnet \
+      --layers 50 \
+      --cutmix_prob 1.0 \
+      --cutmix True
