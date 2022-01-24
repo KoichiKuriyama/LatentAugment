@@ -22,3 +22,22 @@ The optimal augmentation policy, which is the latent variable, cannot be directl
  AutoAugment (AA) (Cubuk et al., 2018), Adversarial AutoAugment (AdvAA) (Zhang et al., 2019), Uncertainty-Based Sampling (UBS) (Wu et al., 2020), and proposed LatentAugment (LA). 
 
 ## Usage
+wrn40x2 model with cifar10 dataset:
+```
+$ python train.py --dataset cifar10 \
+      --name cifar10-wrn40x2 \
+      --dataroot /home/user/data/ \
+      --checkpoint /home/user/runs/latent/ \
+      --num_k 6 \
+      --epochs 200 \
+      --batch-size 128 \
+      --lr 0.1 \
+      --weight-decay 0.0002 \
+      --model wrn \
+      --layers 40 \
+      --widen-factor 2 \
+      --cutmix_prob 0.5 \
+      --cutmix True
+```
+
+For other models and datasets, you can find script files in the script folder.
