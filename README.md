@@ -1,8 +1,9 @@
 # LatentAugment
 
 The optimal augmentation policy, which is the latent variable, cannot be directly observed.
-- LatentAugment estimates the probability of latent augmentation. 
-- LatentAugment is simple and computationally efficient.
+- LatentAugment estimates the probability of latent augmentation using EM algorithm. 
+- LatentAugment is simple and computationally efficient. It can estimate using the simple stochastic gradient descent algorithm without an adversarial network.
+- LatentAugment has higher test accuracy than previous augmentation methods on the CIFAR-10, CIFAR- 100, SVHN, and ImageNet datasets.
 
 ## Results
 |  Dataset  |          Model          |    Baseline   |       AA      |     AdvAA     |  UBS  |       LA  (proposed)     |
