@@ -31,12 +31,12 @@ parser = argparse.ArgumentParser(description='PyTorch LatentAugment')
 # Dataset
 parser.add_argument('--dataset', default='cifar10', type=str,
                     help='dataset (cifar10 [default], cifar100, svhn, imagenet)')
-parser.add_argument('--dataroot', default='/home/kkuri/Dropbox/temp/PyTorch/data/', type=str,
+parser.add_argument('--dataroot', default='/location/to/data/', type=str,
                     help='path to data',)
 parser.add_argument('--num_workers', type=int, default=4, help='')
 
 # Checkpoints
-parser.add_argument('--checkpoint', default='/home/kkuri/results/runs/latent/submit_1/', type=str,
+parser.add_argument('--checkpoint', default='/locastion/to/checkpoint/', type=str,
                     help='path to checkpoint',)
 parser.add_argument('--name', default='LA-cifar10-wrn40x2', type=str,
                     help='name of experiment')
