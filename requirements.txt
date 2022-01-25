@@ -1,0 +1,5 @@
+git+https://github.com/ildoonet/pytorch-gradual-warmup-lr.git@08f7d5e
+tqdm
+torchvision
+torch
+numpy
