@@ -42,3 +42,6 @@ $ python train.py --dataset cifar10 \
 ```
 
 For other models and datasets, you can find script files in the script folder.
+
+## License
+MIT License
