@@ -45,3 +45,16 @@ For other models and datasets, you can find script files in the script folder.
 
 ## License
 MIT License
+
+## Reference
+[Kuriyrma, K. (2023) LatentAugment: Dynamically Optimized Latent Probabilities of Data Augmentation. arXiv:2305.02668.](https://arxiv.org/abs/2305.02668)
+```
+@misc{kuriyama2023latentaugment,
+      title={LatentAugment: Dynamically Optimized Latent Probabilities of Data Augmentation}, 
+      author={Koichi Kuriyama},
+      year={2023},
+      eprint={2305.02668},
+      archivePrefix={arXiv},
+      primaryClass={cs.CV}
+}
+```
